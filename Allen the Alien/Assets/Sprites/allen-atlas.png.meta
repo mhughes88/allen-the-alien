@@ -1,30 +1,30 @@
 fileFormatVersion: 2
 guid: 87e7a8c3f31a4464daa82c1cc8899a97
-timeCreated: 1495062075
+timeCreated: 1495790645
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: allen-atlas_0
-    21300002: allen-atlas_1
-    21300004: allen-atlas_2
-    21300006: allen-atlas_3
-    21300008: allen-atlas_4
-    21300010: allen-atlas_5
-    21300012: allen-atlas_6
-    21300014: allen-atlas_7
-    21300016: allen-atlas_8
-    21300018: allen-atlas_9
-    21300020: allen-atlas_10
-    21300022: allen-atlas_11
-    21300024: allen-atlas_12
-    21300026: allen-atlas_13
-    21300028: allen-atlas_14
-  serializedVersion: 2
+    21300000: Allen
+    21300002: AllenArm
+    21300004: AllenIdle01
+    21300006: AllenIdle02
+    21300008: AllenRun01
+    21300010: AllenRun02
+    21300012: AllenRun03
+    21300014: AllenRun04
+    21300016: AllenRun05
+    21300018: AllenRun06
+    21300020: AllenJump01
+    21300022: AllenJump02
+    21300024: AllenJump03
+    21300026: AllenJump04
+    21300028: AllenJump05
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -32,14 +32,12 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 2048
@@ -50,22 +48,44 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: allen-atlas_0
+    - serializedVersion: 2
+      name: Allen
       rect:
         serializedVersion: 2
         x: 0
@@ -73,19 +93,25 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenArm
       rect:
         serializedVersion: 2
         x: 141
         y: 282
         width: 141
         height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.54875886, y: 0.60638297}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenIdle01
       rect:
         serializedVersion: 2
         x: 282
@@ -93,9 +119,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenIdle02
       rect:
         serializedVersion: 2
         x: 423
@@ -103,9 +132,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenRun01
       rect:
         serializedVersion: 2
         x: 564
@@ -113,9 +145,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenRun02
       rect:
         serializedVersion: 2
         x: 0
@@ -123,9 +158,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenRun03
       rect:
         serializedVersion: 2
         x: 141
@@ -133,9 +171,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenRun04
       rect:
         serializedVersion: 2
         x: 282
@@ -143,9 +184,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenRun05
       rect:
         serializedVersion: 2
         x: 423
@@ -153,9 +197,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_9
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenRun06
       rect:
         serializedVersion: 2
         x: 564
@@ -163,9 +210,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenJump01
       rect:
         serializedVersion: 2
         x: 0
@@ -173,9 +223,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_11
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenJump02
       rect:
         serializedVersion: 2
         x: 141
@@ -183,9 +236,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenJump03
       rect:
         serializedVersion: 2
         x: 282
@@ -193,9 +249,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenJump04
       rect:
         serializedVersion: 2
         x: 423
@@ -203,9 +262,12 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: allen-atlas_14
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: AllenJump05
       rect:
         serializedVersion: 2
         x: 564
@@ -213,8 +275,11 @@ TextureImporter:
         width: 141
         height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
